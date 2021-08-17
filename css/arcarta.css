@@ -8,6 +8,13 @@ html, body{
   background: #FFF8EE;
 }
 
+.header__container{
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  background: #FFF8EE;
+}
+
 .header{
   width: 100%;
   max-width: 1340px;
@@ -17,11 +24,6 @@ html, body{
   height: 90px;
   align-items: center;
   justify-content: space-between;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
   background-color: #FFF8EE;
 }
 

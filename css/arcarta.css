@@ -13,13 +13,17 @@ html, body{
   position: fixed;
   z-index: 1000;
   background: #FFF8EE;
+  margin-top: 47px;
+}
+
+.header__container.scrolling{
+  margin-top: 0;
 }
 
 .header{
   width: 100%;
   max-width: 1340px;
   margin: 0 auto;
-  padding-top: 47px;
   display: flex;
   height: 90px;
   align-items: center;
@@ -30,6 +34,11 @@ html, body{
 .container_0{
   padding-top: 90px;
   z-index: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .header__burger{

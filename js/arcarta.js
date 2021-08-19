@@ -8,3 +8,14 @@ $(function(){
     $('body').toggleClass('lock');
   });
 });
+
+$(function(){
+var scrolling = $(".header__container");
+$(window).scroll(function(){
+  if ( $(this).scrollTop() >= 150){
+    scrolling.addClass("scrolling");
+  } else if($(this).scrollTop() <= 150 && scrolling.hasClass("scrolling")) {
+    scrolling.removeClass("scrolling");
+  }
+  });
+});

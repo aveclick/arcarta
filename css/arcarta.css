@@ -78,6 +78,10 @@ html, body{
   padding: 0 22px;
 }
 
+.header__menu__list a:hover{
+  color: #C47344;
+}
+
 .header__menu__button{
   padding-left: 8px;
   padding-right: 20px;
@@ -93,6 +97,10 @@ html, body{
   color: #FFFFFF;
   padding: 14px 28px;
   border-radius: 25px;
+}
+
+.header__menu__button button:hover{
+  background-color: #F9A38F;
 }
 
 .rely_on_us{
@@ -189,6 +197,10 @@ html, body{
   border-radius: 25px;
 }
 
+.rely_on_us__button button:hover{
+  background-color: #F9A38F;
+}
+
 .brands{
   width: 100%;
   max-width: 1200px;
@@ -232,6 +244,14 @@ html, body{
   margin-left: 7px;
   display: inline-block;
   vertical-align: middle;
+}
+
+.what_is a{
+  color: #C47344;
+}
+
+.what_is a:hover{
+  color: #F9A38F;
 }
 
 .img_container{
@@ -333,6 +353,10 @@ html, body{
   border-radius: 25px;
 }
 
+.card__container__button button:hover{
+  background-color: #F9A38F;
+}
+
 .linear__container{
   background: linear-gradient(to top, #ffffff, #F9EEE3);;
 }
@@ -425,6 +449,14 @@ html, body{
   padding-top: 9px;
 }
 
+.begin a{
+  color: white;
+}
+
+.begin a:hover{
+  color: #F9A38F;
+}
+
 .begin h5:after{
   content: "";
   background-image: url('../img/begin__arrow.svg');
@@ -497,6 +529,10 @@ html, body{
   color: #000000;
   padding: 13px 27px;
   border-radius: 25px;
+}
+
+.anti-money__content__button button:hover{
+  background-color: #F9A38F;
 }
 
 .art_world__container{
@@ -708,6 +744,10 @@ footer{
 
 .footer__column2 a{
   color: #313131;
+}
+
+.footer__column2 a:hover {
+    color: #C47344;
 }
 
 .footer__column2 li{

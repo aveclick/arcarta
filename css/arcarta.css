@@ -859,7 +859,7 @@ footer{
     padding-top: 35px;
     justify-content: space-around;
   }
-  body.lock{
+  html.lock{
     overflow: hidden;
   }
   .header__burger{
